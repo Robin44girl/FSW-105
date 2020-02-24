@@ -27,7 +27,6 @@ var array = [ //arrays and everything in javascript are 0-indexed => eveything s
 // {      }
 
 
-
 var shopper={
   firstName:"Wegmans",
   // key:value,
