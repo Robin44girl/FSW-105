@@ -1,4 +1,4 @@
-var string = 5; //string
+var string ="5"; //string
 // console.log("string"); //string
 // console.log(`string ${string}`); //string
 // console.log(5); //number
@@ -26,15 +26,20 @@ var array = [ //arrays and everything in javascript are 0-indexed => eveything s
 
 // {      }
 
-function myFunction() {
-  //function logic goes inside of here
-}
+
 
 var shopper={
   firstName:"Wegmans",
   // key:value,
   age:20,
   isAlive: true,
-  
+  function: function myFunction() {
+    //function logic goes inside of here
+    return this.firstName + " is " + this.age +"years old"
+    var groceries=["milk", "bread", "grapes", "cereal", "chips", "juice",];
+
+  }
+
+
 }
 console.log(shopper)
