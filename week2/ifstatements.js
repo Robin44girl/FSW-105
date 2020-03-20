@@ -41,10 +41,14 @@ else{console.log ("not equal at all")}
 // console.log(num===string)
 // console.log(num==string)
 // console.log(1=="1")
-var num1= 1
-var num2= 2
-//Write an if statement that console.logs "yes" if num1 is less than or equal to num2 AND (&&) num2 is equal to 4.
+var firstNumber= 1
+var secondNumber= 2
+var thirdNumber = 4
+//Write an if statement that console.logs "yes" if firstNumber is less than or equal to secondNumber AND (&&) secondNumber is equal to 4.
 //<= 
-if (num1<=num2) {console.log ("yes")}
-else if (num2=num4) {console.log ("&&")}
-    
+if (firstNumber<=secondNumber&&secondNumber===thirdNumber) {console.log ("yes")}
+else if (firstNumber<=secondNumber){console.log ('is first number smaller than second number')}
+else{console.log("no")}
+             // secondNumber is equal to num4
+              //secondNumber is equal to 4
+            //   console.log(secondNumber === 4)
