@@ -34,8 +34,8 @@ if (person.name.charAt(0)==="B"&&person.age>= 18){console.log (person.name+" is 
 var num = 1
 var string = "2"
 //prints "strict" if 1 strictly equals "1" WHEN
-if (num===string) {console.log ("strict")}
-else if (num==string) {console.log ("loose")}
+if (1==="1") {console.log ("strict")}
+else if (1=="1") {console.log ("abstract")}
 else{console.log ("not equal at all")}
 
 // console.log(num===string)
