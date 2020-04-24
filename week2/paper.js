@@ -1,6 +1,6 @@
 var enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function Who_Wins(isThereKryptonite,enemyName)
+function whoWins(isThereKryptonite,enemyName)
 {
 if (!isThereKryptonite)
 {
@@ -20,7 +20,7 @@ for (var i = 0; i < enemies.length; i++)
     } else {
         is_there_kryptonite = false;
     }
-    console.log(Who_Wins(isThereKryptonite,enemies[i]));
+    console.log(whoWins(isThereKryptonite,enemies[i]));
 }
 
 function howAttractedIsLoisLaneToMe ()
