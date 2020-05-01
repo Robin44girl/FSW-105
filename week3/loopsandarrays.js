@@ -29,11 +29,11 @@ function isOldEnough(){
     for (i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
         if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18 ){
             console.log("oldEnough");
-    }}
+    }
          else if (peopleWhoWantToSeeMadMaxFuryRoad[i].age <= 18 ){
                console.log("notOldEnough");
          }
-    } 
+    }} 
 isOldEnough();
 console.log("==========");
 
@@ -47,15 +47,24 @@ function isOldEnoughPersonalMessage(){
          }
     } 
 } 
-isOldEnoughMorePersonalMessage();
+isOldEnoughPersonalMessage();
 console.log("==========");
 
-function isOldEnoughPersonalMoreMessage(){
+function isOldEnoughPersonalMessage(){
     for (i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
         if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18 ){
-            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].gender + " is old enough to see Mad Max, let in");
+            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " is old enough to see Mad Max, let in");
     }       
          else if (peopleWhoWantToSeeMadMaxFuryRoad[i].age <= 18 ){
-            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].gender + " is not old enough to see Mad Max, don't let in");
+            console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name +" is not old enough to see Mad Max, don't let in");
          }
 }}
+
+for (i = 0; i < 101 ; i++){
+       if (i % 2 === 0){
+           console.log(i % 2 === "even");
+    }
+        else if (i % 2 === 0){
+            console.log(i % 2 === "odd");
+        }
+}
